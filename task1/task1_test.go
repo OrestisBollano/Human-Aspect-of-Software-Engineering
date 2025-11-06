@@ -2,26 +2,24 @@ package task1
 
 import "testing"
 
-func TestAdd(t *testing.T) {
-    // Define all the test cases
-    testCases := []struct {
-        a    int // input 1
-        b    int // input 2
-        want int // expected result
-    }{
-        {1, 2, 3},
-        {5, 5, 10},
-        {0, 0, 0},
-        {-1, 1, 0},
-        {-5, -10, -15},
-    }
+func TestFindFirst(t *testing.T) {
+	cases := []struct {
+		haystack []int
+		needle   int
+		want     int
+	}{
+		{[]int{1, 2, 3, 4, 5}, 3, 2},
+		{[]int{10, 20, 30}, 5, -1},
+		{[]int{5, 5, 5, 5}, 5, 0},
+		{[]int{}, 1, -1},
+		{[]int{1, 2, 3}, 1, 0},
+		{[]int{1, 2, 3}, 5, -1},
+	}
 
-    // Loop through all test cases
-    for _, tc := range testCases {
-        got := Add(tc.a, tc.b)
-        if got != tc.want {
-            // The test fails if 'got' is not equal to 'want'
-            t.Errorf("Add(%d, %d) = %d; want %d", tc.a, tc.b, got, tc.want)
-        }
-    }
+	for _, tc := range cases {
+		got := FindFirst(tc.haystack, tc.needle)
+		if got != tc.want {
+			t.Errorf("FindFirst(%v, %d) = %d, want %d", tc.haystack, tc.needle, got, tc.want)
+		}
+	}
 }
