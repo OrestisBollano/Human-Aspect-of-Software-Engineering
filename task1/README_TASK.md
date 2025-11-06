@@ -1,6 +1,6 @@
 ### Task 1: Python to Go Translation
 
-Your goal is to translate the following Python function into its Go equivalent in the `task1/taskCheck.go` file.
+Your goal is to translate the following Python function into its Go equivalent in the `task1/task1.go` file.
 
 The Go function signature is already defined for you. You just need to implement the logic.
 
