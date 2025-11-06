@@ -2,5 +2,15 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"features": {
 		"ghcr.io/bartventer/arch-devcontainer-features/go:1": {}
+	},
+	"customizations": {
+	  "vscode": {
+		"settings": {
+		  // --- Disable GitHub Copilot for all users ---
+		  "github.copilot.enable": false,
+		  "github.copilot.chat.enable": false,
+		  "github.copilot.inlineSuggest.enable": false
+		}
+	  }
 	}
 }
