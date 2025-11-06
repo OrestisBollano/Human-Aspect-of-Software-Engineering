@@ -2,9 +2,50 @@
 
 Welcome, participants! This repository contains a few small coding tasks designed to be completed in a GitHub Codespace.
 
-Your goal is to follow the instructions, complete the tasks, and make sure all the automated tests pass.
+Your goal is to follow the instructions for your group, complete the tasks, and make sure all the automated tests pass.
 
-## Getting Started: Your Personal Workspace
+## ⚠️ Find Your Group Instructions First ⚠️
+
+Please read the instructions for your assigned group **before** you begin.
+
+---
+
+### Group 1: Non-AI Group Rules
+
+If you are in the **Non-AI Group**, you are **only** allowed to use the following websites to help you:
+
+* The official Go Documentation: [golang.org/doc/](https://golang.org/doc/)
+* Stack Overflow: [stackoverflow.com](https://stackoverflow.com)
+* Go by Example: [gobyexample.com](https://gobyexample.com)
+
+Please **do not** use any AI assistants, chatbots (like ChatGPT), or AI-powered search (like Perplexity).
+
+---
+
+### Group 2: AI Group Rules
+
+If you are in the **AI Group**, you are encouraged to use any online resources to help you, including:
+
+* The official Go Documentation: [golang.org/doc/](https://golang.org/doc/)
+* Stack Overflow: [stackoverflow.com](https://stackoverflow.com)
+* Go by Example: [gobyexample.com](https://gobyexample.com)
+* **AI Chatbots:** You are **required** to use an online AI chatbot (like ChatGPT, Gemini, Copilot, etc.) to help you with the tasks.
+
+#### **CRITICAL INSTRUCTIONS (AI Group Only)**
+
+We need to collect the logs of your interaction with the AI chatbot.
+
+1.  As you work, please use the AI chatbot for help on both tasks.
+2.  When you are finished with the experiment, **you must download or export your full chat history** (e.g., in ChatGPT, go to Settings > Data Controls > Export data).
+3.  After finishing, please **upload your downloaded log file** to this Microsoft Form:
+
+    ➡️ **[INSERT YOUR MICROSOFT FORM LINK HERE]** ⬅️
+
+This is a required step for the experiment.
+
+---
+
+## Getting Started: Your Personal Workspace (All Groups)
 
 Please follow these steps to create your own private, separate coding environment.
 
@@ -16,7 +57,7 @@ Please follow these steps to create your own private, separate coding environmen
     * Click **"Create codespace on main"**.
 4.  **Wait for Build:** GitHub will now build your environment. It will have Go installed and be ready for you in 1-2 minutes.
 
-## Your Workflow: How to Complete a Task
+## Your Workflow: How to Complete a Task (All Groups)
 
 For *each* task, you will follow this three-step process:
 
@@ -32,7 +73,7 @@ For *each* task, you will follow this three-step process:
     This command runs the automated tests. You will see a `FAIL` message, which tells you what's wrong.
 3.  **Code the solution.**
     * Open the `.go` file for that task (e.g., `task1/taskCheck.go`).
-    * Write your code to solve the problem.
+    * Write your code to solve the problem (using your group's allowed resources).
     * Save the file (`Ctrl+S` or `Cmd+S`).
 4.  **Run the test again** (and again) until it passes.
     ```bash
@@ -44,7 +85,7 @@ For *each* task, you will follow this three-step process:
 
 ---
 
-## The Tasks
+## The Tasks (All Groups)
 
 ### Task 1: Python to Go Translation
 
@@ -64,13 +105,19 @@ For *each* task, you will follow this three-step process:
 
 ---
 
-## 🏁 Finishing the Experiment
+## 🏁 Finishing the Experiment (All Groups)
 
 When you have completed all tasks and all tests pass, please "submit" your work by saving it to the repository.
 
-Run these three commands in your terminal:
+1.  **Push your code:**
+    ```bash
+    git add .
+    git commit -m "Finished all tasks"
+    git push origin main
+    ```
 
-```bash
-git add .
-git commit -m "Finished all tasks"
-git push origin main
+2.  **Final Step (Check Your Group):**
+    * **Non-AI Group:** You are done! Thank you.
+    * **⚠️ AI Group Only:** Do not forget to **export your AI chat logs** and **upload them** to the Microsoft Form link at the top of this file.
+
+That's it! Thank you for participating.
