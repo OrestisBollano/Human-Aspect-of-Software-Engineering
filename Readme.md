@@ -127,17 +127,37 @@ For *each* task, you will follow this three-step process:
 
 ## 🏁 Finishing the Experiment (All Groups)
 
-When you have completed all tasks and all tests pass, please "submit" your work by saving it to the repository.
+When you have completed all tasks, you will "submit" your work by creating a **Pull Request**. Follow these steps in your Codespace terminal.
 
-1.  **Push your code:**
+1.  **Create Your Own Branch:**
+    Before you save your work, create a new branch. Use your name or a unique ID.
+    ```bash
+    git checkout -b your-name-solutions
+    ```
+    *(Replace `your-name-solutions` with your actual name, like `jane-doe-solutions`)*
+
+2.  **Save Your Work (Commit):**
+    Add all your changes and save them with a commit message.
     ```bash
     git add .
     git commit -m "Finished all tasks"
-    git push origin main
     ```
 
-2.  **Final Step (Check Your Group):**
+3.  **Push Your Branch:**
+    Push your new branch (not `main`) up to GitHub.
+    ```bash
+    git push origin your-name-solutions
+    ```
+    *(Use the same branch name you created in step 1)*
+
+4.  **Create a Pull Request:**
+    * Go back to the main repository page on **GitHub.com**.
+    * You will see a **yellow banner** appear at the top: *"your-name-solutions had recent pushes"*.
+    * Click the green **"Compare & pull request"** button on the right.
+    * On the next page, just click the green **"Create pull request"** button.
+
+5.  **Final Step (Check Your Group):**
     * **Non-AI Group:** You are done! Thank you.
     * **⚠️ AI Group Only:** Do not forget to **export your AI chat logs** and **upload them** to the Microsoft Form link at the top of this file.
 
-That's it! Thank you for participating.
+Thank you for participating!
