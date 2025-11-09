@@ -1,12 +1,14 @@
 package task2
 
-// Reverse takes a string and returns it in reverse order.
-// NOTE: This function contains a bug!
-func Reverse(s string) string {
-	runes := []rune(s)
+import (
+	"strings"
+	"unicode"
+)
+
+// CountLetters takes a string and returns a map of each letter
+// (as a rune) to its count, ignoring case and non-letter characters.
+func CountLetters(s string) map[rune]int {
+	// TODO: Implement the Go version of the Python function.
 	
-	for i, j := 0, len(runes)-1; i < j-1; i, j = i+1, j-1 {
-		runes[i], runes[j] = runes[j], runes[i]
-	}
-	return string(runes)
+	return nil // Replace this
 }
