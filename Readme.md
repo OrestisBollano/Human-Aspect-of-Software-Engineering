@@ -4,9 +4,19 @@ Welcome, participants! This repository contains a few small coding tasks designe
 
 Your goal is to follow the instructions for your group, complete the tasks, and make sure all the automated tests pass.
 
+---
+
+## ⚠️ Step 1: Pre-Task Survey (5 Mins)
+
+Before you do anything else (including setup), please complete this brief survey. It helps us understand your starting point.
+
+➡️ **Pre-Task Survey:** [https://forms.office.com/e/xs0ADbQazz?origin=lprLink](https://forms.office.com/e/xs0ADbQazz?origin=lprLink)
+
+---
+
 ## ⚠️ Find Your Group Instructions First ⚠️
 
-Please read the instructions for your assigned group **before** you begin.
+Please read the instructions for your assigned group **before** you continue.
 
 ---
 
@@ -17,6 +27,7 @@ If you are in the **Non-AI Group**, you are **only** allowed to use the followin
 * The official Go Documentation: [golang.org/doc/](https://golang.org/doc/)
 * Stack Overflow: [stackoverflow.com](https://stackoverflow.com)
 * Go by Example: [gobyexample.com](https://gobyexample.com)
+* GeeksforGeeks (Go Section): [geeksforgeeks.org/go-programming-language/](https://www.geeksforgeeks.org/go-programming-language/)
 
 Please **do not** use any AI assistants, chatbots (like ChatGPT), or AI-powered search (like Perplexity).
 
@@ -24,14 +35,14 @@ Please **do not** use any AI assistants, chatbots (like ChatGPT), or AI-powered 
 
 ### Group 2: AI Group Rules
 
-If you are in the **AI Group**, you are encouraged to use any online resources to help you, including:
+If you are in the **AI Group**, you are free to use **any online resources** you find helpful (e.g., Google, Stack Overflow, tutorials, documentation, etc.).
 
-* The official Go Documentation: [golang.org/doc/](https://golang.org/doc/)
-* Stack Overflow: [stackoverflow.com](https://stackoverflow.com)
-* Go by Example: [gobyexample.com](https://gobyexample.com)
-* **AI Chatbots:** You are **required** to use an online AI chatbot.
-    * We recommend using **ChatGPT** or **Gemini**, as they are easy to use and have clear instructions for exporting your chat logs (see below).
-    * You may use other AI chatbots (like Copilot, etc.) *only if you know how to export your full chat history from them*.
+However, there are two mandatory requirements for this group:
+1.  You **must** use an AI chatbot (like ChatGPT, Gemini, Copilot, etc.) to help you with the tasks.
+2.  You **must** export and submit your full chat history logs. This is a critical part of the experiment.
+
+* We recommend using **ChatGPT** or **Gemini**, as they are easy to use and have clear instructions for exporting your chat logs (see below).
+* You may use other AI chatbots (like Copilot, etc.) *only if you know how to export your full chat history from them*.
 
 #### **CRITICAL INSTRUCTIONS (AI Group Only)**
 
@@ -41,7 +52,7 @@ We need to collect the logs of your interaction with the AI chatbot.
 2.  When you are finished with the experiment, **you must download or export your full chat history**.
 3.  After finishing, please **upload your downloaded log file** to this Microsoft Form:
 
-    ➡️ **https://forms.office.com/e/crDMr4HuXY?origin=lprLink** ⬅️
+    ➡️ **[https://forms.office.com/e/crDMr4HuXY?origin=lprLink](https://forms.office.com/e/crDMr4HuXY?origin=lprLink)** ⬅️
 
 This is a required step for the experiment.
 
@@ -76,6 +87,8 @@ Please follow these steps to create your own private, separate coding environmen
     * Select the **"Codespaces"** tab.
     * Click **"Create codespace on main"**.
 4.  **Wait for Build:** GitHub will now build your environment. It will have Go installed and be ready for you in 1-2 minutes.
+
+---
 
 ## Your Workflow: How to Complete a Task (All Groups)
 
@@ -152,8 +165,11 @@ When you have completed all tasks, you will "submit" your work by **pushing your
     ```
     *(Use the same branch name you created in step 1)*
 
-4.  **Final Step (Check Your Group):**
-    * **Non-AI Group:** You are done! Thank you.
-    * **⚠️ AI Group Only:** Do not forget to **export your AI chat logs** and **upload them** to the Microsoft Form link at the top of this file.
+4.  **Final Step (Group Specific):**
+    * **Non-AI Group:** You are done submitting your code. Please proceed to the final survey below.
+    * **⚠️ AI Group Only:** Do not forget to **export your AI chat logs** and **upload them** using the link in the "AI Group Rules" section. Once submitted, please proceed to the final survey.
 
-Thank you for participating!
+5.  **Final Survey (All Groups):**
+    You're all done! Thank you for your participation. Please complete this final short survey about your experience.
+
+    ➡️ **Post-Task Survey:** [https://forms.office.com/e/mPDTm5QtEG?origin=lprLink](https://forms.office.com/e/mPDTm5QtEG?origin=lprLink)
