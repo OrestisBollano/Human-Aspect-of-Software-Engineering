@@ -1,6 +1,6 @@
 {
-	"name": "Go",
-	"image": "mcr.microsoft.com/devcontainers/go:1-1.22",
+	"name": "Go & Python Environment",
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"customizations": {
 	  "vscode": {
 		"settings": {
