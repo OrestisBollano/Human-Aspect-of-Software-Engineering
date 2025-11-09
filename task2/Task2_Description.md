@@ -1,21 +1,26 @@
-### Task 2: Debugging (Reverse String)
+### Task 2: Python to Go Translation (Count Letters)
 
-Your goal for this task is to find and fix a bug in an existing Go function.
+Your goal is to translate the following Python function into its Go equivalent in the `task2/task2.go` file.
 
-#### The Problem
+The Go function signature is already defined for you. You just need to implement the logic.
 
-The file `task2/task2.go` contains a function `Reverse(s string)` that is *supposed* to take a string and return that string in reverse order.
-
-For example:
-* `Reverse("hello")` should return `"olleh"`
-* `Reverse("Go")` should return `"oG"`
-
-However, the function has a bug and is failing some of the tests.
-
-#### Your Job
-
-1.  Run `go test` in the `task2` terminal to see which tests are failing.
-2.  Read the code in `task2/task2.go`.
-3.  Find the logical error in the code.
-4.  Fix the bug directly in the `task2.go` file.
-5.  Run `go test` again. If it passes, you are done with this task!
+**Python Code to Translate:**
+```python
+# Define a function 'count_letters' that takes one argument, 's'
+def count_letters(s):
+    
+    # Create an empty dictionary
+    counts = {}
+    
+    # Loop over each character 'ch' in the lowercase version of the string 's'
+    for ch in s.lower():
+        
+        # Check if the character is an alphabetic letter
+        if ch.isalpha():
+            
+            # If it is, get its current count (defaulting to 0)
+            # and increment it by 1
+            counts[ch] = counts.get(ch, 0) + 1
+            
+    # Return the final dictionary of counts
+    return counts
