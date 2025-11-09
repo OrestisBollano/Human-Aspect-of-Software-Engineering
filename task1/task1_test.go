@@ -1,25 +1,26 @@
 package task1
 
-import "testing"
+import (
+	"reflect"
+	"testing"
+)
 
-func TestFindFirst(t *testing.T) {
+func TestWordCount(t *testing.T) {
 	cases := []struct {
-		haystack []int
-		needle   int
-		want     int
+		input string
+		want  map[string]int
 	}{
-		{[]int{1, 2, 3, 4, 5}, 3, 2},
-		{[]int{10, 20, 30}, 5, -1},
-		{[]int{5, 5, 5, 5}, 5, 0},
-		{[]int{}, 1, -1},
-		{[]int{1, 2, 3}, 1, 0},
-		{[]int{1, 2, 3}, 5, -1},
+		{"hello world hello", map[string]int{"hello": 2, "world": 1}},
+		{"a b c a b", map[string]int{"a": 2, "b": 2, "c": 1}},
+		{"", map[string]int{}},
+		{"one", map[string]int{"one": 1}},
+		{"go go go", map[string]int{"go": 3}},
 	}
 
 	for _, tc := range cases {
-		got := FindFirst(tc.haystack, tc.needle)
-		if got != tc.want {
-			t.Errorf("FindFirst(%v, %d) = %d, want %d", tc.haystack, tc.needle, got, tc.want)
+		got := WordCount(tc.input)
+		if !reflect.DeepEqual(got, tc.want) {
+			t.Errorf("WordCount(%q) = %v, want %v", tc.input, got, tc.want)
 		}
 	}
 }
