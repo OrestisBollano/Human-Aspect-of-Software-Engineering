@@ -1,10 +1,10 @@
-### Task 2: Debugging
+### Task 2: Debugging (Reverse String)
 
 Your goal for this task is to find and fix a bug in an existing Go function.
 
 #### The Problem
 
-The file `task2.go` contains a function `Reverse(s string)` that is *supposed* to take a string and return that string in reverse order.
+The file `task2/task2.go` contains a function `Reverse(s string)` that is *supposed* to take a string and return that string in reverse order.
 
 For example:
 * `Reverse("hello")` should return `"olleh"`
