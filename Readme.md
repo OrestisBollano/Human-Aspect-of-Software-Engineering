@@ -111,7 +111,8 @@ For *each* task, you will follow this three-step process:
 
 1.  Navigate to the `task1` folder: `cd task1`
 2.  Run `go test` to see the failing tests.
-3.  Open and read the file `task1/README_TASK.md`. This contains a simple Python function.
+3.  Open and read the file `task1/README_TASK.md`. This contains the Python code you need to translate.
+    * (You can also run the Python example by typing `python3 task1.py` in your terminal to see its output.)
 4.  Your job is to translate that Python logic into Go. Write your Go code in the file `task1/task1.go`.
 5.  Run `go test` repeatedly until you see `PASS`.
 
@@ -119,7 +120,8 @@ For *each* task, you will follow this three-step process:
 
 1.  Navigate to the `task2` folder: `cd ../task2`
 2.  Run `go test` to see the failing tests.
-3.  Open and read the file `task2/README_TASK.md`. [cite_start]This contains a simple Python function. [cite: 46-51]
+3.  Open and read the file `task2/README_TASK.md`. This contains the Python code you need to translate.
+    * (You can also run the Python example by typing `python3 task2.py` in your terminal to see its output.)
 4.  Your job is to translate that Python logic into Go. Write your Go code in the file `task2/task2.go`.
 5.  Run `go test` repeatedly until you see `PASS`.
 
