@@ -41,7 +41,7 @@ We need to collect the logs of your interaction with the AI chatbot.
 2.  When you are finished with the experiment, **you must download or export your full chat history**.
 3.  After finishing, please **upload your downloaded log file** to this Microsoft Form:
 
-    ➡️ **[INSERT YOUR MICROSOFT FORM LINK HERE]** ⬅️
+    ➡️ **https://forms.office.com/e/crDMr4HuXY?origin=lprLink** ⬅️
 
 This is a required step for the experiment.
 
