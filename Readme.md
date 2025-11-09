@@ -115,12 +115,12 @@ For *each* task, you will follow this three-step process:
 4.  Your job is to translate that Python logic into Go. Write your Go code in the file `task1/task1.go`.
 5.  Run `go test` repeatedly until you see `PASS`.
 
-### Task 2: Debugging (Reverse String)
+### Task 2: Python to Go Translation (Count Letters)
 
 1.  Navigate to the `task2` folder: `cd ../task2`
 2.  Run `go test` to see the failing tests.
-3.  The file `task2/task2.go` is already implemented, but it **contains a bug**.
-4.  Your job is to read the code in `task2/task2.go`, find the bug, and fix it.
+3.  Open and read the file `task2/README_TASK.md`. [cite_start]This contains a simple Python function. [cite: 46-51]
+4.  Your job is to translate that Python logic into Go. Write your Go code in the file `task2/task2.go`.
 5.  Run `go test` repeatedly until you see `PASS`.
 
 ---
@@ -130,7 +130,7 @@ For *each* task, you will follow this three-step process:
 When you have completed all tasks, you will "submit" your work by **pushing your code to a new branch**. Follow these steps in your Codespace terminal.
 
 1.  **Create Your Own Branch:**
-    Before you save your work, create a new branch. Use your name.
+    Before you save your work, create a new branch. Use your name or a unique ID.
     ```bash
     git checkout -b your-name-solutions
     ```
