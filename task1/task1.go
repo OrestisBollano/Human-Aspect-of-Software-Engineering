@@ -1,8 +1,11 @@
 package task1
 
-// Read the Python code in task1/README_TASK.md.
-// Your goal is to translate that Python function into this Go function.
-func FindFirst(haystack []int, needle int) int {
+import "strings"
+
+// WordCount takes a string, splits it into words,
+// and returns a map of each word to its count.
+func WordCount(s string) map[string]int {
 	// TODO: Implement the Go version of the Python function.
-	return -1
+
+	return nil // Replace this
 }
