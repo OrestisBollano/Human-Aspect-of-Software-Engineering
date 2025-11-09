@@ -107,7 +107,7 @@ For *each* task, you will follow this three-step process:
 
 ## The Tasks (All Groups)
 
-### Task 1: Python to Go Translation
+### Task 1: Python to Go Translation (Word Counter)
 
 1.  Navigate to the `task1` folder: `cd task1`
 2.  Run `go test` to see the failing tests.
@@ -115,7 +115,7 @@ For *each* task, you will follow this three-step process:
 4.  Your job is to translate that Python logic into Go. Write your Go code in the file `task1/task1.go`.
 5.  Run `go test` repeatedly until you see `PASS`.
 
-### Task 2: Debugging
+### Task 2: Debugging (Reverse String)
 
 1.  Navigate to the `task2` folder: `cd ../task2`
 2.  Run `go test` to see the failing tests.
@@ -127,10 +127,10 @@ For *each* task, you will follow this three-step process:
 
 ## 🏁 Finishing the Experiment (All Groups)
 
-When you have completed all tasks, you will "submit" your work by creating a **Pull Request**. Follow these steps in your Codespace terminal.
+When you have completed all tasks, you will "submit" your work by **pushing your code to a new branch**. Follow these steps in your Codespace terminal.
 
 1.  **Create Your Own Branch:**
-    Before you save your work, create a new branch. Use your name or a unique ID.
+    Before you save your work, create a new branch. Use your name.
     ```bash
     git checkout -b your-name-solutions
     ```
@@ -144,19 +144,13 @@ When you have completed all tasks, you will "submit" your work by creating a **P
     ```
 
 3.  **Push Your Branch:**
-    Push your new branch (not `main`) up to GitHub.
+    Push your new branch (not `main`) up to GitHub. This "submits" your code so the researcher can see it.
     ```bash
     git push origin your-name-solutions
     ```
     *(Use the same branch name you created in step 1)*
 
-4.  **Create a Pull Request:**
-    * Go back to the main repository page on **GitHub.com**.
-    * You will see a **yellow banner** appear at the top: *"your-name-solutions had recent pushes"*.
-    * Click the green **"Compare & pull request"** button on the right.
-    * On the next page, just click the green **"Create pull request"** button.
-
-5.  **Final Step (Check Your Group):**
+4.  **Final Step (Check Your Group):**
     * **Non-AI Group:** You are done! Thank you.
     * **⚠️ AI Group Only:** Do not forget to **export your AI chat logs** and **upload them** to the Microsoft Form link at the top of this file.
 
