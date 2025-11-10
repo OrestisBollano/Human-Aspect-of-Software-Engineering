@@ -1,14 +1,28 @@
 {
-	"name": "Go & Python Environment",
-	"image": "mcr.microsoft.com/devcontainers/universal:2",
-	"customizations": {
-	  "vscode": {
-		"settings": {
-		  // --- Disable GitHub Copilot for all users ---
-		  "github.copilot.enable": false,
-		  "github.copilot.chat.enable": false,
-		  "github.copilot.inlineSuggest.enable": false
-		}
-	  }
-	}
+  "name": "Go & Python Environment",
+
+  // 1. Use a minimal, fast base image (Debian)
+  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+
+  // 2. Add *only* the specific tools you need
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {
+       "version": "latest" // Or specify a version like "1.21"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+       "version": "latest" // Or specify a version like "3.11"
+    }
+  },
+
+  // 3. Your original customizations are preserved
+  "customizations": {
+    "vscode": {
+      "settings": {
+        // --- Disable GitHub Copilot for all users ---
+        "github.copilot.enable": false,
+        "github.copilot.chat.enable": false,
+        "github.copilot.inlineSuggest.enable": false
+      }
+    }
+  }
 }
