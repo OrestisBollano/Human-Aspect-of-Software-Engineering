@@ -6,6 +6,19 @@ import "strings"
 // and returns a map of each word to its count.
 func WordCount(s string) map[string]int {
 	// TODO: Implement the Go version of the Python function.
+	// Create an empty map to hold word counts
+	counts := make(map[string]int)
 
-	return nil // Replace this
+	// Split the input string into words by spaces
+	words := strings.Fields(s)
+
+	// Loop through each word
+	for _, w := range words {
+		// Increment the count for each word
+		counts[w]++
+	}
+
+	// Return the completed map
+	return counts
 }
+
